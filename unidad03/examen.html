@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<!-- <link rel="icon" type="image/png" href="img/cordoba_patrimonio_favicon.png" /> -->
+		<title>Lenguaje de Marcas</title>
+		<meta charset="utf-8">
+		<meta name="description" content" ">
+		<meta name="keywords" content" Lenguaje de Marcas">
+		<!--link real="stylesheet" href="estilos.css"-->
+	</head>
+	<body>
+        <nav id="top">
+            <ul type="a">
+				<li><a href="#ej1">Ejercicio01</a></li>
+                <li><a href="#ej2">Ejercicio02</a></li>
+                <li><a href="#ej3">Ejercicio03</a></li>
+                <li><a href="#ej4">Ejercicio04</a></li>
+            </ul>
+            </nav>
+	<main>
+        <section>
+			<article>
+					<h1 id="ej1">Ejercicio1</h1>
+					<center><img src="img/sistemasolar.jpg" alt="Imagen Sistema solar" title="Sistema Soplar" usemap="#sistemasolar"></img></center>
+					<map name="sistemasolar">
+						<area alt="Mercurio" shape="circle" coords="123,221,8px" href="https://es.wikipedia.org/wiki/Mercurio_(planeta)" target="_blank">
+						<area alt="Venus" shape="circle" coords="156,203,12px" href="https://es.wikipedia.org/wiki/Venus_(planeta)" target="_blank">
+						<area alt="Tierra" shape="circle" coords="190,188,17px" href="https://es.wikipedia.org/wiki/Tierra" target="_blank">
+						<area alt="Marte" shape="circle" coords="226,173,13px" href="https://es.wikipedia.org/wiki/Marte_(planeta)" target="_blank">
+					</map>
+					<p>Aparecen enlaces en Mercurio, Venus, Tierra y Marte</p>
+					<p><center><a href="#top"><img src="img/volver.png" alt="Botón Volver" title="Volver"></img><br/>Volver al inicio</img></a></center></p>
+			</article>
+			<article>
+					<h1 id="ej2">Ejercicio 2</h1>
+					<dl>Tecnologías web:
+					<dt>CSS</dt>
+					<dd>Cascading Style Sheets</dd>
+					<dt>HTML</dt>
+					<dd>HyperText Markup Language</dd>
+					<dt>W3C</dt>
+					<dd>World Wide Web Consortium</dd>
+					</dl>
+				<p><center><a href="#top"><img src="img/volver.png" alt="Botón Volver" title="Volver"></img><br/>Volver al inicio</img></a></center></p>
+			</article>
+			<article>
+					<h1 id="ej3">Ejercicio 3</h1>		
+					<table border="1">
+						<tr>
+							<th></th>
+							<th colspan="2">Mafalda</th>
+							<th colspan="2">Mortadelo</th>
+						</tr>
+						<tr>
+							<td><center><b>Fecha</b></center></td>
+							<td><center><b>Entrada</b></center></td>
+							<td><center><b>Salida</b></center></td>
+							<td><center><b>Entrada</b></center></td>
+							<td><center><b>Salida</b></center></td>
+							</b>
+						</tr>
+						<tr>
+							<td><center><b>15/10</b></td>
+							<td>8:00</td>
+							<td>15:00</td>
+							<td>10:00</td>
+							<td>12:00</td>
+						</tr>
+						<tr>
+							<td><center><b>16/10</b></td>
+							<td>9:00</td>
+							<td>15:00</td>
+							<td>09:30</td>
+							<td>15:30</td>
+						</tr>
+						<tr>
+							<td><center><b>09/08</b></td>
+							<td>8:00</td>
+							<td>15:00</td>
+							<td>10:00</td>
+							<td>12:00</td>
+						</tr>
+						<tr>
+							<td><center><b>22/10</b></td>
+							<td>8:00</td>
+							<td>15:00</td>
+							<td>10:00</td>
+							<td>12:00</td>
+						</tr>
+						<tr>
+							<td><center><b>25/10</b></center></td>
+							<td>8:00</td>
+							<td>15:00</td>
+							<td>10:00</td>
+							<td>12:00</td>
+						</tr>
+						<tr>
+								<td ><b center>Importe Horas</b></td>
+								<td colspan="2">2,50 €</td>
+								<td colspan="2">325 €</td>
+						</tr>
+				</table>
+				<p><center><a href="#top"><img src="img/volver.png" alt="Botón Volver" title="Volver"></img><br/>Volver al inicio</img></a></center></p>
+			</article>
+			<article>
+				<h1 id="ej4">Ejercicio 4</h1>
+					<header> Información principal</header>
+					<main>
+					<form name="formulario" method="get" action="mailto:subeunescalon@gmail.com">
+						<label><input type= "text" name ="nombre" maxlength="25" placeholder="Nombre"></label><br>
+						<label><input type= "text" name = "apellidos" maxlength="55" placeholder="Apellidos"></label>
+
+						<p>Grupo de edad:</p>
+						<label><input type="radio" name="nivel" value="1">0-30</label>
+						<label><input type="radio" name="nivel" value="2">31-60</label>
+						<label><input type="radio" name="nivel" value="3">61-100</label>
+
+						<p>Información adicional</p>
+						Biografía: <p>
+						<label><textarea name="biografia"></textarea></label>
+						<p>Imagen: <label><input type="file">Seleccionar Archivo</label></p>	
+						<p>Intereses</p>
+						<p>Hobbies:</p>
+						<select name="hobbies" size="4">
+							<option>Deportes</option>
+							<option>Lectura</option>
+							<option>Cine</option>
+							<option>Naturaleza</option>
+							<option>Música</option>
+							<option>Viajes</option>
+						</select>
+						<p> Red Social Favorita 
+						<select name="RedSocial">
+							<option>Facebook</option>
+							<option>Instagram</option>
+							<option>Twitter</option>
+						</select>
+					</form>
+					<p>
+					<center><a href="#top"><img src="img/volver.png" alt="Botón Volver" title="Volver"></img><br/>Volver al inicio</img></a></center>
+					</p>
+			</article>
+        </section>
+    </main>
+        <footer>
+			&copy; Todos los derechos reservados. Manuel Hidalgo Pérez. <a href= "http://www.subeunescalon.com" target="blank">Sube un Escalón.</a> 2019
+		</footer>
+	</body>
+</html>

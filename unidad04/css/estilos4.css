@@ -1,0 +1,13 @@
+h1 {
+    font-size: 36px;
+}
+p {
+    font-size: 16px;
+    font-family: Verdana;
+}
+article {
+    background-color; #eee;
+    width: 25%;
+    border: 5px dotted black;
+    overflow: scroll;
+}

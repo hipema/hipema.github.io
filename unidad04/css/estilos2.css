@@ -1,0 +1,45 @@
+p [name]{
+    background: yellow;
+}
+p [name="p1"]{
+    background: red;
+}
+p [name~="p2"]{
+    background: green;
+}
+p [name=^"p3"]{
+    background: grey;
+}
+p [name$="p4"]{
+    background: purple;
+}
+p [name*="p5"]{
+    background: yellow;
+}
+p.mundo {
+    background-color: brown;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    border: green;
+    border-left: 20px;
+    border-right: 20px;
+    border-top: 20px;
+    border-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 200px;
+    weight: 200px:
+}
+p.mundo:hover {
+    font-size:24px;
+}
+p.parrafo:nth-child(odd) {
+    color:red;
+}
+p.parrafo:nth-child(even) {
+    color:green;
+} 

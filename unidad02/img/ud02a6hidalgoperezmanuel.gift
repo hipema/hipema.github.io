@@ -1,0 +1,37 @@
+ // pregunta: 1 nombre: Definición de World Wide Web
+¿Qué es WWW? {
+=Es un servicio de internet
+~Es un protocolo HTTP
+~Es un protocolo FTP
+~Es una enciclopedia muy grande.
+}
+
+ // pregunta: 2 nombre: Partes de una URL
+¿Cuáles son las partes de una URL?: {
+~Dominio y archivos.
+~Nombre, dominio y archivo
+=protocolo, servidor, puerto, y ruta
+}
+
+ // pregunta: 3 nombre: Editores de texto
+ ¿Cuál de los siguientes no es un editor de texto?: {
+~XCode
+~Visual Studio Code
+~Subime Text
+=Chrome
+}
+
+ // pregunta: 4 nombre: Definiciones protocolos
+¿Cuál de los siguientes protocolos tiene su definición correcta? {
+~HTTP: protocolo utilizado para la gestión de archivos
+~News: protocolo para la reproducción de musica 
+~file: protocolo para grupos de noticias
+=Mailto: protocolo para correo electrónico
+}
+
+ // pregunta: 5 nombre: Códigos de estado respuestas HTTP
+¿Cuál es el código que devuelve el cliente HTTP en caso de error? {
+~2xx
+~3xx
+=4xx
+~5xx

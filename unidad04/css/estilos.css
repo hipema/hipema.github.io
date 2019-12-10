@@ -1,0 +1,17 @@
+p, span {
+    font-size: 16px;
+    color: #0000ff;
+}
+p span {
+    font-size: 14px;
+    color: red;
+}
+header {
+    font-size: 22px;
+}
+#prueba {
+    color: green;
+}
+.agrupado {
+    color: #00ffff;
+}
