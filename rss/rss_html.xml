@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss>
 <channel>
-<title>LENGUAJE DE MARCAS: XML</title>
+<title>LENGUAJE DE MARCAS: HTML</title>
+<item>
+<title>Ejercicio 1 DE HTML</title>
+<link>http://www.subeunescalon.com</link>
+<descripcion>Descripción ejercicio 1</descripcion>
+</item>
 <item>
 <title>Ejercicio 1</title>
 <link>http://www.subeunescalon.com</link>
 <descripcion>Descripción ejercicio 1</descripcion>
-</item>
-<item>
-<title>Ejercicio 2</title>
-<link>http://www.subeunescalon.com</link>
-<descripcion>Descripción ejercicio 1</descripcion>
-</item>
-<item>
-<title>Ejercicio 3</title>
-<link>http://www.marca.com</link>
-<descripcion>Noticia del marca</descripcion>
-</item>
+</item>s
 </channel>
 </rss>
