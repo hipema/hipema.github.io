@@ -2,20 +2,29 @@
 <rss>
 <channel>
 <title>RSS - Ejercicios XML - Manuel Hidalgo</title>
+
 <item>
 <title>Ejercicio 1</title>
-<link>../unidad7/ejercicio01.xml</link>
+<link>../unidad07/ejercicio01.xml</link>
 <descripcion>Ejercicio de Países</descripcion>
 </item>
+
 <item>
 <title>Ejercicio 2</title>
-<link>../unidad7/ejercicio02.xml</link>
+<link>../unidad07/ejercicio02.xml</link>
 <descripcion>Reyes</descripcion>
 </item>
+
 <item>
 <title>Ejercicio 3</title>
-<link>../unidad7/ejercicio03.xml</link>
+<link>../unidad07/ejercicio03.xml</link>
 <descripcion>Envío</descripcion>
+</item>
+
+<item>
+<title>Ejercicio 4</title>
+<link>../unidad07/ejercicio04.xml</link>
+<descripcion>Ejercicio realizado en clase</descripcion>
 </item>
 
 </channel>
