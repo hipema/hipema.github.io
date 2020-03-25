@@ -1,0 +1,32 @@
+
+<xs:schema>
+    <xs:element name="paises">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="pais" type="xs:string"/>
+                <xs:element name="ciudad" type="xs:string" minOccurs="0" maxOccurs="5"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
+git
+<paises xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="paises.xsd">
+    <pais>
+    <nombre>Argentina</nombre>
+        <ciudad>Buenos Aires</ciudad>
+        <ciudad>Rosario</ciudad>
+    </pais>
+    <pais>
+    <nombre>México</nombre>
+        <ciudad>Guadalajara</ciudad>
+        <ciudad>Monterrey</ciudad>
+    </pais>
+    <pais>
+    <nombre>Francia</nombre>
+        <ciudad>Paris</ciudad>
+        <ciudad>Mansle</ciudad>
+        <ciudad>Tolouse</ciudad>
+        <ciudad>Lyon</ciudad>
+        <ciudad>Marsella</ciudad>
+    </pais>
+</paises>

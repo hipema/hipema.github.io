@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texto[
+<!ELEMENT texto (Titulo,párrafo+, http)>
+<!ELEMENT Titulo (#PCDATA)>
+<!ELEMENT parrafo (#PCDATA)>
+<!ELEMENT http (#PCDATA)>
+]>
+<texto>
+<Titulo>XML explicado a los niños</Titulo>
+<parrafo>El <!--<abreviatura> -->XML<!--</abreviatura> -->define cómo crear lenguajes de marcas.
+</parrafo>
+<parrafo>Las marcas se añaden a un documento de texto para añadir información.</parrafo>
+<http>www.example.org</http>
+</texto>
+
+
+<!-- ERRORES Y MODIFICACIONES REALIZADAS
+
+- Faltaba la creación de la declaración de los elementos. Creamos DOCTYPE y los distintos elementos
+    con sus características.
+- En la etiqueta de cierre de "Título", hay que escribirla tal cual, con mayúscula.
+- El elemento párrafo, debe escribirse sin tilde.
+- La indicación de abreviatura (línea 10) no debe realizarse dentro del elemento.
+- El elemento http no debe incluir ni los dos puntos ni las barras
+
+-->

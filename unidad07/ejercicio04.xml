@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas[
+<!ELEMENT personas (persona+)>
+<!ELEMENT persona (nombre, mayor_de_edad?, ciudad)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT mayor_de_edad EMPTY>
+<!ELEMENT ciudad (#PCDATA)>
+<!ATTLIST persona formapago (Contado|Tarjeta) "Contado">
+<!ATTLIST persona dni ID #REQUIRED>
+]>
+<personas>
+    <persona dni="30265738G">
+        <nombre>Manuel</nombre>
+        <mayor_de_edad/>
+        <ciudad>Córdoba</ciudad>
+    </persona>
+    
+    <persona dni="80154636g">
+        <nombre>Dora</nombre>
+        <ciudad>Córdoba</ciudad>
+    </persona>
+</personas>
+
+<!-- Tipo de datos #PCDATA, CDATA, etc. mirar en apuntes 
+Los campos ID no pueden comenzar por número, deben empezar por algún carácter tipo letra, _, etc.
+-->

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<nota fecha="01/01/2012">
+    <fecha>01/01/2012</fecha>
+    <para>Merdedes</para>
+    <de>Jose</de>
+    <cabecera>Recordatorio</cabecera>
+    <cuerpo>No olvides el cumpleaños de Andrés</cuerpo>
+</nota>
+<!-- Este documento está bien formado, pero no es válido, es correcto -->

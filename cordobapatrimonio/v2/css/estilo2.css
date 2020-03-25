@@ -1,0 +1,66 @@
+#container {
+    display: flex;
+    background: green;
+    min-height: calc(100vh - 85vh);
+}
+#container > div > nav >div > ul > li{
+    display: inline;
+    margin: 10px;
+    color: white;
+}
+
+header,footer {
+    background: grey;
+    height: 15vh;
+}
+
+ * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* Establecemos las reglas para los elementos flexibles */
+#container  > #menu {
+    flex: 0 70vw;
+}
+#container  > #buscador {
+    flex: 0 30vw;
+    align-self: center;
+}
+input {
+    width: 100%;
+}
+#formulario {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Completamos el resto de reglas css */
+body {
+    margin: 0;
+}
+header, footer, article, nav, aside {
+    padding: 1em;
+}
+/*
+He puesto 600px porque sino en mi pantalla, no llega a reducir hasta los 400px, aunque simplemente sería variar el valor aquí presente a 400px.
+*/
+@media (max-width: 600px){
+    #container {
+        display: grid;
+        grid-template-areas:
+        "nav"
+        "buscador";
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        height: 25vh;
+        margin: 0;
+    }
+    #container  > #buscador {
+        width: 100%;
+        align-self: center;
+    }
+    input {
+        width: 100%;
+    }
+}

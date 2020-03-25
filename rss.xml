@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Ejercicios Manuel Hidalgo Pérez</title>
+<link>https://hipema.github.io/</link>
+<description>Página web con la presentación de los ejercicios realizados para la asignatura Lenguaje de Marcas</description>
+<item>
+<title>Presentación</title>
+.<link>https://hipema.github.io/unidad01/ejercicio01.html</link>
+<description>Documento personal realizado en el lenguaje LaTex, en el cual se realiza una breve presentación de mi trayectoria
+laboral, estudios y motivaciones para cursar el ciclo de 1ºDAW.</description>
+</item>
+<item>
+<title>Wikilock</title>
+<link>https://hipema.github.io/unidad01/ejercicio02.html</link>
+<description>Wikilock se trata de una aplicación orientada al senderismo y con múltiples rutas. En esta actividad localizamos una ruta
+de subida a la Tiñosa y en el pdf adjunto, os mostramos un breve análisis desde el punto de vista del Lenguaje de marcas, analizando
+el código, etiquetas y funciones que nos muestra el archivo correspondiente.</description>
+</item>
+</channel>
+</rss>

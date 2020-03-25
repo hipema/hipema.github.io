@@ -1,3 +1,9 @@
+.cajaFlotante {
+    float:right;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+}
 header {
     padding: 25px;
     background: #c85328;
@@ -5,7 +11,7 @@ header {
 nav {
     text-align: left;
     background: #e9c283;
-    color: rgb(223, 14, 14);
+    color: grey;
     font-weight: bolder;
     line-height: 180%;
     border-radius: 8px;
@@ -74,11 +80,6 @@ article {
 .imagenesArticle {
     text-align: center;
     width: 100%;
-    height: auto;
-}
-.imagenesArticle2 {
-    text-align: center;
-    width: 25%;
     height: auto;
 }
 .imagenesCabecera {

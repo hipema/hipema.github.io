@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE geografia_mundial[
+<!ELEMENT geografia_mundial (pais, continente, capital)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT continente (#PCDATA)>
+<!ELEMENT capital (#PCDATA)>
+<!ATTLIST capital nombre CDATA>
+]>
+<geografia_mundial>
+<pais>
+<pais>España</pais>
+<continente>Europa</continente>
+<capital nombre="Madrid"></capital >
+</pais>
+</geografia_mundial>
+
+
+<!-- ERRORES Y MODIFICACIONES REALIZADAS
+
+- Faltaba la creación de la declaración de los elementos. Creamos DOCTYPE y los distintos elementos
+    con sus características.
+- La etiqueta geografia mundial, debería escribirse con un guión bajo.
+- En la línea 13, el atributo nombre de la capital debe aparecer en la etiqueta de apertura,
+    aunque personalmente lo pondría más como valor en el interior del elemento.
+-->

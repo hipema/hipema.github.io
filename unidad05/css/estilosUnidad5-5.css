@@ -1,3 +1,26 @@
+/* Primera parte del css trata sobre contenedores flexibles y su distribución del contenido.
+    Importante reseñar la opción flex-grow para indicar la preferencia del tamaño */
+
+    .container {
+    display: flex;
+}
+.container > div {
+    font-size: 2vw;
+    padding: .5em;
+    color: white;
+}
+.red {
+    background-color: red;
+    flex-grow: 1;
+}
+.green {
+    background-color:green;
+}
+.blue {
+    background-color: blue;
+}
+
+
 header {
     padding: 25px;
     background: #c85328;
@@ -5,23 +28,30 @@ header {
 nav {
     text-align: left;
     background: #e9c283;
-    color: rgb(223, 14, 14);
+    color: grey;
     font-weight: bolder;
     line-height: 180%;
     border-radius: 8px;
     width: 95%;
 }
+nav ul {
+    display: flex;
+}
 nav ul a {
     text-decoration: none;
     color: #c85328;
+    border: 3px solid blue;
+    padding: 3px;
 }
 nav ul a:hover {
     text-decoration: none;
     color: #f9efdf;
     font-size: 16px;
 }
+li {
+    display: flex;
+}
 #menu {
-    display: inline;
     margin: 10px;
     border-radius: 8px;
 }
@@ -74,11 +104,6 @@ article {
 .imagenesArticle {
     text-align: center;
     width: 100%;
-    height: auto;
-}
-.imagenesArticle2 {
-    text-align: center;
-    width: 25%;
     height: auto;
 }
 .imagenesCabecera {

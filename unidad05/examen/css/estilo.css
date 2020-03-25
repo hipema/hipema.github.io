@@ -1,0 +1,52 @@
+/* Diseño a tres columnas con CSS Grid */
+body {
+    display: grid;
+    grid-template-areas:
+        "box1 box1 box1 box4"
+        "box3 box2 box2 box2"
+        "box3 box5 box5 box5";
+    grid-template-rows: 20% 1fr 15%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Definimos reglas generales */
+header, footer, article, nav, div {
+    padding: 15px;
+    background: green;
+}
+
+/* Definimos áreas en la rejilla */
+#box1 {
+    grid-area: box1;
+}
+#box2 {
+    grid-area: box2;
+}
+#box3 {
+    grid-area: box3;
+}
+#box4 {
+    grid-area: box4;
+}
+#box5 {
+    grid-area: box5;
+}
+@media (max-width: 640px){
+    body {
+        display: grid;
+        grid-template-areas:
+        "box1"
+        "box2"
+        "box3"
+        "box4"
+        "box5";
+        grid-template-rows: 15% 1fr 10% 1fr 10%;
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+        height: 100vh;
+        margin: 0;
+    }
+}

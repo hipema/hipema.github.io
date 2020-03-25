@@ -1,0 +1,30 @@
+main {
+    margin: 0px;
+    background-color: grey;
+    border: solid black 1px;
+    color: white;
+}
+header {
+    margin: 0px;
+    background-color: red;
+    border: solid black 1px;
+    color: white;
+}
+section {
+    margin: 0px;
+    background-color: yellow;
+    border: solid black 1px;
+    color: black;
+}
+aside {
+    margin: 0px;
+    background-color: blue;
+    border: solid black 1px;
+    color: white;
+}
+footer {
+    margin: 0px;
+    background-color: brown;
+    border: solid black 1px;
+    color: white;
+}

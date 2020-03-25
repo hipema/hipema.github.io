@@ -1,3 +1,18 @@
+p {
+    background-color: aqua;
+    border: 3px solid blue;
+    margin: 10px;
+}
+span {
+    background-color: red;
+    border: 1px solid black;
+}
+.positioned { /* Posicionamiento relativo. El elemento posicionado debe tomar su lugar en el flujo de diseño normal. Puede modificar su posición
+                e incluso superponerse a otros elementos de la página. Es necesario utilizar las propiedades top, bottom, left y right. */
+    position: relative;
+    bottom: 30px;
+    right: 30px;
+}
 header {
     padding: 25px;
     background: #c85328;
@@ -5,7 +20,7 @@ header {
 nav {
     text-align: left;
     background: #e9c283;
-    color: rgb(223, 14, 14);
+    color: grey;
     font-weight: bolder;
     line-height: 180%;
     border-radius: 8px;
@@ -74,11 +89,6 @@ article {
 .imagenesArticle {
     text-align: center;
     width: 100%;
-    height: auto;
-}
-.imagenesArticle2 {
-    text-align: center;
-    width: 25%;
     height: auto;
 }
 .imagenesCabecera {

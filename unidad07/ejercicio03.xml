@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note[
+<!ELEMENT note (to+, from, heading*, (body|mensaje))>
+<!ELEMENT to (nombre, direccion)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+<!ELEMENT mensaje (#PCDATA)>
+]>
+<note>
+    <to>
+    <nombre>Jose</nombre>
+    <direccion>C/ porquesi</direccion>
+    </to>
+    <to>
+    <nombre>Paco</nombre>
+    <direccion>C/ Claro</direccion>
+    </to>
+    <from>Mark</from>
+    <heading>LM</heading>
+    <body>Lorem ipsum dolor sit amet.</body>
+</note>
+<!-- 
+Anotaciones para ampliar información en el constructor  DTD:
+    + (to). Puedes añadir tantos elementos (to) como quieras.
+    * (heading). No sería obligatorio añadir ese campo. Puede haber, cero o más elementos heading.
+    ? .Permite 0 ó 1 ocurrencia
+    | (body|mensaje). Permite que se coja uno u otro elemento.
+    EMPTY - si el contenido puede ser vacío, en ese caso se representaría en "el formulario" <elemento/>
+
+-->

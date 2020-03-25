@@ -1,0 +1,47 @@
+/* Establecemos el main como contenedor flexible y dejamos encabezado y pie como elementos de bloque */
+#main {
+    display: flex;
+    min-height: calc(100vh - 30vh); /* Esta propiedad establece el área prinicpal al 100% del área gráfica menos la altura del encabezado y el pie. */
+}
+header,footer {
+    background: grey;
+    height: 15vh;
+}
+
+/* Para facilitar el cálculo (función calc) aplicaremos box-sizing: border-box a todos los elementos, de forma que el padding y
+ border de los elementos se incluyen en el tamaño que ocupa el elemento */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Establecemos las reglas para los elementos flexibles */
+#main > article {
+    flex: 1;
+}
+/* La propiedad flex permite establecer simultáneamente los valores para *flex-grow* (factor de crecimiento del elemento flexible
+    en relación al resto de elementos flexibles cuando se distribuye el espacio libre), *flex-shrinky* (tamaño que se reduce el elemento
+    flexible en relación al relación al resto de elementos flexibles cuando se distribuye el espacio libre) y *flex-basis* (tamaño principal
+    inicial del elemento flexible, antes de que el espacio libre se distribuya de acuerdo con los factores de flexibilidad). la primera
+    ocurrencia de la propiedad flex establece el valor para flex-grow y en la segunda proporciona los tres valores. */
+#main > nav,
+#main > aside {
+    flex: 0 0 20vw; /* Este 20vw indica que el 20% de la pantalla se destina a los dos apartados "nav y aside" */
+    background: beige;
+}
+#main > nav {
+    order: -1;
+}
+
+/* Completamos el resto de reglas css */
+body {
+    margin: 0;
+}
+header, footer {
+    background: grey;
+    height: 15vh;
+}
+header, footer, article, nav, aside {
+    padding: 1em;
+}
