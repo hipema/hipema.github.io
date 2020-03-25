@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss>
 <channel>
-<title>LENGUAJE DE MARCAS: XML</title>
+<title>RSS - Ejercicios XML - Manuel Hidalgo</title>
 <item>
 <title>Ejercicio 1</title>
-<link>http://www.subeunescalon.com</link>
+<link></link>
 <descripcion>Descripción ejercicio 1</descripcion>
 </item>
 <item>
@@ -17,5 +17,6 @@
 <link>http://www.marca.com</link>
 <descripcion>Noticia del marca</descripcion>
 </item>
+
 </channel>
 </rss>

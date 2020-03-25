@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss>
 <channel>
-<title>LENGUAJE DE MARCAS: HTML</title>
+<title>RSS - Ejercicios HTML - Manuel Hidalgo</title>
 <item>
-<title>Ejercicio 1 DE HTML</title>
-<link>http://www.subeunescalon.com</link>
-<descripcion>Descripción ejercicio 1</descripcion>
+<title>Unidad 1. Ejercicio 1</title>
+<link>https://hipema.github.io/unidad01/ejercicio01.html</link>
+<descripcion>Documento personal realizado en el lenguaje LaTex, en el cual se realiza una breve presentación de mi trayectoria laboral, estudios y motivaciones para cursar el ciclo de 1ºDAW.</descripcion>
 </item>
 <item>
-<title>Ejercicio 1</title>
-<link>http://www.subeunescalon.com</link>
-<descripcion>Descripción ejercicio 1</descripcion>
-</item>s
+<title>Unidad 1. Ejercicio 2</title>
+<link>https://hipema.github.io/unidad01/ejercicio02.html</link>
+<descripcion>Wikilock se trata de una aplicación orientada al senderismo y con múltiples rutas. En esta actividad localizamos una ruta de subida a la Tiñosa y en el pdf adjunto, os mostramos un breve análisis desde el punto de vista del Lenguaje de marcas, analizando el código, etiquetas y funciones que nos muestra el archivo correspondiente.</descripcion>
+</item>
+<item>
+<title>Unidad 1. Ejercicio 3</title>
+<link>https://hipema.github.io/unidad01/ejercicio03.html</link>
+<descripcion>En esta actividad entramos en contacto con el lenguaje gift, elaborando un cuestionario con 5 preguntas de elección múltiple para importar a la plataforma moodle del I.E.S. Gran Capitán para su uso en la asignatura de Lenguaje de Marcas, de 1º de DAW. Estas preguntan se basan en la unidad actual: Introducción a los lenguajes de marcas.</descripcion>
+</item>
 </channel>
 </rss>
