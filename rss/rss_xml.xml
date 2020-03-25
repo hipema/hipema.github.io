@@ -4,18 +4,18 @@
 <title>RSS - Ejercicios XML - Manuel Hidalgo</title>
 <item>
 <title>Ejercicio 1</title>
-<link></link>
-<descripcion>Descripción ejercicio 1</descripcion>
+<link>../unidad7/ejercicio01.xml</link>
+<descripcion>Ejercicio de Países</descripcion>
 </item>
 <item>
 <title>Ejercicio 2</title>
-<link>http://www.subeunescalon.com</link>
-<descripcion>Descripción ejercicio 1</descripcion>
+<link>../unidad7/ejercicio02.xml</link>
+<descripcion>Reyes</descripcion>
 </item>
 <item>
 <title>Ejercicio 3</title>
-<link>http://www.marca.com</link>
-<descripcion>Noticia del marca</descripcion>
+<link>../unidad7/ejercicio03.xml</link>
+<descripcion>Envío</descripcion>
 </item>
 
 </channel>
