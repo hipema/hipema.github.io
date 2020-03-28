@@ -52,7 +52,25 @@
 <link>https://hipema.github.io/unidad02/ejercicio07.html</link>
 <descripcion>En esta actividad se pide nuestra colaboración para completar el sitio del módulo en moodle, incluimos nuestros datos y enlace a nuesto gitHub.</descripcion>
 </item>
-
-
+<item>
+<title>Unidad 3. Ejercicio 1</title>
+<link>https://hipema.github.io/unidad03/tablas01.html</link>
+<descripcion>Ejercicio de prueba de tablas simple.</descripcion>
+</item>
+<item>
+<title>Unidad 3. Ejercicio 1</title>
+<link>https://hipema.github.io/unidad03/tablas01.html</link>
+<descripcion>Ejercicio de prueba de tablas simple.</descripcion>
+</item>
+<item>
+<title>Unidad 3. Ejercicio 2</title>
+<link>https://hipema.github.io/unidad03/tablas02.html</link>
+<descripcion>Ejercicio de prueba de tablas incluyendo borde.</descripcion>
+</item>
+<item>
+<title>Unidad 3. Ejercicio 3</title>
+<link>https://hipema.github.io/unidad03/tablas03.html</link>
+<descripcion>Ejercicio de prueba de tablas incluyendo bordes y combinación de celdas, tanto horizontales como verticales.</descripcion>
+</item>
 </channel>
 </rss>
