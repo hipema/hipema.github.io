@@ -72,5 +72,110 @@
 <link>https://hipema.github.io/unidad03/tablas03.html</link>
 <descripcion>Ejercicio de prueba de tablas incluyendo bordes y combinación de celdas, tanto horizontales como verticales.</descripcion>
 </item>
+<item>
+<title>Unidad 3. Examen</title>
+<link>https://hipema.github.io/unidad03/examen.html</link>
+<descripcion>Ejercicio realizado para el exámen del tema 3</descripcion>
+</item>
+<item>
+<title>Unidad 4. Examen</title>
+<link>https://hipema.github.io/unidad04/examen_css/index.html</link>
+<descripcion>Ejercicio realizado para el exámen del tema 3-4 de CSS</descripcion>
+</item>
+<item>
+<title>Unidad 4. Bloque 1. Ejercicio 1</title>
+<link>https://hipema.github.io/unidad04/bloque1/ejercicio01/index.html</link>
+<descripcion>Ejercicio básico realizando un sombreado sobre la línea escrita.</descripcion>
+</item>
+<item>
+<title>Unidad 4. Bloque 1. Ejercicio 2</title>
+<link>https://hipema.github.io/unidad04/bloque1/ejercicio02/index.html</link>
+<descripcion>Ejercicio básico realizando recuadro con un ancho de 175px, border 2 px black y paddings de diferentes tamaños.</descripcion>
+</item>
+<item>
+<title>Unidad 4. Bloque 1. Ejercicio 3</title>
+<link>https://hipema.github.io/unidad04/bloque1/ejercicio03/index.html</link>
+<descripcion>Ejercicio básico realizando recuadro con un ancho de 175px, border 20 px grey y paddings de diferentes tamaños.</descripcion>
+</item>
+<item>
+<title>Unidad 4. Bloque 2. Ejercicio 1</title>
+<link>https://hipema.github.io/unidad04/bloque1/ejercicio04/index.html</link>
+<descripcion>Ejercicio de prueba de filtros CSS con escala de grises, difuminado y modificado brillo.</descripcion>
+</item>
+<item>
+<title>Unidad 4. Bloque 2. Ejercicio 1</title>
+<link>https://hipema.github.io/unidad04/bloque2/ejemplos_clase/animaciones/index.html</link>
+<descripcion>Ejercicio de prueba de filtros CSS con escala de grises, difuminado y modificado brillo.</descripcion>
+</item>
+<item>
+<title>Unidad 4. Bloque 2. Ejercicio 2</title>
+<link>https://hipema.github.io/unidad04/bloque2/ejemplos_clase/animaciones/index.html</link>
+<descripcion>Ejercicio de prueba de filtros CSS con escala de grises y redimensionado.</descripcion>
+</item>
+<item>
+<title>Unidad 4. Bloque 2. Ejemplo gradiante radial</title>
+<link>https://hipema.github.io/unidad04/bloque2/ejemplos_clase/ejercicios_gradiantes01/index.html</link>
+<descripcion>Ejemplo de gradiante radial.</descripcion>
+</item>
+<item>
+<title>Unidad 4. Bloque 2. Ejercicio 3</title>
+<link>https://hipema.github.io/unidad04/bloque2/ejercicio01/index.html</link>
+<descripcion>Ejercicio 3.</descripcion>
+</item>
+<item>
+<title>Unidad 4. Ejemplo CSS 1</title>
+<link>https://hipema.github.io/unidad04/ejemplo1css.html</link>
+<descripcion>Ejemplo con CSS</descripcion>
+</item>
+<item>
+<title>Unidad 4. Ejemplo CSS 1</title>
+<link>https://hipema.github.io/unidad04/ejemplo1css.html</link>
+<descripcion>Ejemplo con CSS</descripcion>
+</item>
+<item>
+<title>Unidad 4. Ejemplo CSS 2</title>
+<link>https://hipema.github.io/unidad04/ejerciciotextos.html</link>
+<descripcion>Ejemplo con cambios de fuentes y tamaño mediante CSS.</descripcion>
+</item>
+<item>
+<title>Unidad 4. Ejemplo CSS 3</title>
+<link>https://hipema.github.io/unidad04/holamundo.html</link>
+<descripcion>Ejemplo con recuadro de color rojo, al superponer el ratón cambia el tamaño del texto.</descripcion>
+</item>
+<item>
+<title>Unidad 4. Ejemplo CSS 4</title>
+<link>https://hipema.github.io/unidad04/modelocajas.html</link>
+<descripcion>Ejemplo con modelo de cajas.</descripcion>
+</item>
+<item>
+<title>Unidad 4. Ejemplo CSS 5</title>
+<link>https://hipema.github.io/unidad04/modelocajas2.html</link>
+<descripcion>Ejemplo con modelo de cajas.</descripcion>
+</item>
+<item>
+<title>Unidad 4. Ejemplo CSS 6</title>
+<link>https://hipema.github.io/unidad04/parrafos.html</link>
+<descripcion>Ejemplo de aplicación de formato según la posición dentro de la web.</descripcion>
+</item>
+<item>
+<title>Unidad 4. Ejemplo CSS 6</title>
+<link>https://hipema.github.io/unidad04/parrafos.html</link>
+<descripcion>Ejemplo de aplicación de formato según la posición dentro de la web.</descripcion>
+</item>
+<item>
+<title>Unidad 4. Ejemplo CSS 7</title>
+<link>https://hipema.github.io/unidad04/parrafotexto-caja.html</link>
+<descripcion>Ejemplo de aplicación formato en diferentes cajas y a texto</descripcion>
+</item>
+<item>
+<title>Unidad 4. Ejemplo CSS 8</title>
+<link>https://hipema.github.io/unidad04/prueba1css.html</link>
+<descripcion>Ejemplo de formato de texto.</descripcion>
+</item>
+<item>
+<title>Unidad 4. Ejemplo CSS 9</title>
+<link>https://hipema.github.io/unidad04/pruebaestilos2css.html</link>
+<descripcion>Ejemplo con prueba de estilos</descripcion>
+</item>
 </channel>
 </rss>
