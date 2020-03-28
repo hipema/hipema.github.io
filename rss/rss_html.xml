@@ -17,5 +17,42 @@
 <link>https://hipema.github.io/unidad01/ejercicio03.html</link>
 <descripcion>En esta actividad entramos en contacto con el lenguaje gift, elaborando un cuestionario con 5 preguntas de elección múltiple para importar a la plataforma moodle del I.E.S. Gran Capitán para su uso en la asignatura de Lenguaje de Marcas, de 1º de DAW. Estas preguntan se basan en la unidad actual: Introducción a los lenguajes de marcas.</descripcion>
 </item>
+<item>
+<title>Unidad 2. Ejercicio 1</title>
+<link>https://hipema.github.io/unidad02/ejercicio01.html</link>
+<descripcion>En este ejercicio realizamos una entrada en el foro general del módulo en el que hablamos sobre la configuración de nuestro entorno de trabajo.</descripcion>
+</item>
+<item>
+<title>Unidad 2. Ejercicio 2</title>
+<link>https://hipema.github.io/unidad02/ejercicio02.html</link>
+<descripcion>En este ejercicio realizamos una entrada en el foro general del módulo en el que hablamos sobre las extensiones de navegador que tenemos instaladas.</descripcion>
+</item>
+<item>
+<title>Unidad 2. Ejercicio 3</title>
+<link>https://hipema.github.io/unidad02/ejercicio03.html</link>
+<descripcion>Preguntas sobre el protocolo HTTP / WWWW.</descripcion>
+</item>
+<item>
+<title>Unidad 2. Ejercicio 4</title>
+<link>https://hipema.github.io/unidad02/ejercicio04.html</link>
+<descripcion>Cuestionario sobre diferentes preguntas relacionadas con HTML, navegadores, W3C...</descripcion>
+</item>
+<item>
+<title>Unidad 2. Ejercicio 5</title>
+<link>https://hipema.github.io/unidad02/ejercicio05.html</link>
+<descripcion>Realización de "Mi primera página web"</descripcion>
+</item>
+<item>
+<title>Unidad 2. Ejercicio 6</title>
+<link>https://hipema.github.io/unidad02/ejercicio06.html</link>
+<descripcion>En esta actividad entramos en contacto con el lenguaje gift, elaborando un cuestionario con 5 preguntas de elección múltiple para importar a la plataforma moodle del I.E.S. Gran Capitán para su uso en la asignatura de Lenguaje de Marcas, de 1º de DAW. Estas preguntan se basan en la unidad actual: Lenguaje de Marcas en entorno web.</descripcion>
+</item>
+<item>
+<title>Unidad 2. Ejercicio 7</title>
+<link>https://hipema.github.io/unidad02/ejercicio07.html</link>
+<descripcion>En esta actividad se pide nuestra colaboración para completar el sitio del módulo en moodle, incluimos nuestros datos y enlace a nuesto gitHub.</descripcion>
+</item>
+
+
 </channel>
 </rss>
