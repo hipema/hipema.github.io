@@ -4,27 +4,70 @@
 <title>RSS - Ejercicios XML - Manuel Hidalgo</title>
 
 <item>
-<title>Ejercicio 1</title>
-<link>../unidad07/ejercicio01.xml</link>
-<descripcion>Ejercicio de Países</descripcion>
+<title>Unidad 7. Ejercicio 1.- Actividades Propuestas</title>
+<link>https://hipema.github.io/unidad07/actividades_propuestas/ejercicio01.xml</link>
+<descripcion>Ejercicio 1a de XML</descripcion>
 </item>
 
 <item>
-<title>Ejercicio 2</title>
-<link>../unidad07/ejercicio02.xml</link>
-<descripcion>Reyes</descripcion>
+<title>Unidad 7. Ejercicio 1b.- Actividades Propuestas</title>
+<link>https://hipema.github.io/unidad07/actividades_propuestas/ejercicio01b.xml</link>
+<descripcion>Ejercicio 1b de XML</descripcion>
 </item>
 
 <item>
-<title>Ejercicio 3</title>
-<link>../unidad07/ejercicio03.xml</link>
-<descripcion>Envío</descripcion>
+<title>Unidad 7. Ejercicio 1c.- Actividades Propuestas</title>
+<link>https://hipema.github.io/unidad07/actividades_propuestas/ejercicio01c.xml</link>
+<descripcion>Ejercicio 1c de XML</descripcion>
 </item>
 
 <item>
-<title>Ejercicio 4</title>
-<link>../unidad07/ejercicio04.xml</link>
-<descripcion>Ejercicio realizado en clase</descripcion>
+<title>Unidad 7. Ejercicio 1d.- Actividades Propuestas</title>
+<link>https://hipema.github.io/unidad07/actividades_propuestas/ejercicio01d.xml</link>
+<descripcion>Ejercicio 1d de XML</descripcion>
+</item>
+
+<item>
+<title>Unidad 7. Ejercicio 1e.- Actividades Propuestas</title>
+<link>https://hipema.github.io/unidad07/actividades_propuestas/ejercicio01e.xml</link>
+<descripcion>Ejercicio 1e de XML</descripcion>
+</item>
+
+<item>
+<title>Unidad 7. Ejercicio 1. XSD</title>
+<link>https://hipema.github.io/unidad07/xsd/ejercicio01.xml</link>
+<descripcion>Ejercicio 1 de XSD</descripcion>
+</item>
+
+<item>
+<title>Unidad 7. Ejercicio 2. XSD</title>
+<link>https://hipema.github.io/unidad07/xsd/ejercicio02.xml</link>
+<descripcion>Ejercicio 2 de XML</descripcion>
+</item>
+
+<item>
+<title>Unidad 7. Ejercicio 3. XSD</title>
+<link>https://hipema.github.io/unidad07/xsd/ejercicio03.xml</link>
+<descripcion>Ejercicio 3 de XML</descripcion>
+</item>
+
+
+<item>
+<title>Unidad 7. Ejercicio 4. XSD</title>
+<link>https://hipema.github.io/unidad07/xsd/ejercicio04.xml</link>
+<descripcion>Ejercicio 4 de XML</descripcion>
+</item>
+
+<item>
+<title>Unidad 7. Ejercicio 5. XSD</title>
+<link>https://hipema.github.io/unidad07/xsd/ejercicio05.xml</link>
+<descripcion>Ejercicio 5 de XML</descripcion>
+</item>
+
+<item>
+<title>Unidad 7. Ejercicio 5b. XSD</title>
+<link>https://hipema.github.io/unidad07/xsd/ejercicio05b-ejemplo15.xml</link>
+<descripcion>Ejercicio 5b de XML</descripcion>
 </item>
 
 </channel>
