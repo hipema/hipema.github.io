@@ -70,5 +70,41 @@
 <descripcion>Ejercicio 5b de XML</descripcion>
 </item>
 
+<item>
+<title>Unidad 6. Ejercicio 3. XHTML</title>
+<link>https://hipema.github.io/unidad06/ejercicio3.xhtml</link>
+<descripcion>Ejercicio 3 de XHTML</descripcion>
+</item>
+
+<item>
+<title>Unidad 7. Ejercicio Discos - Bob Dylan</title>
+<link>https://hipema.github.io/unidad07/xml-xsl/discos_bob_dylan.xml</link>
+<descripcion>Ejercicio de XSL con selección de discos Bob Dylan</descripcion>
+</item>
+
+<item>
+<title>Unidad 7. Ejercicio Discos - Precio 10 €</title>
+<link>https://hipema.github.io/unidad07/xml-xsl/discos_bob_dylan.xml</link>
+<descripcion>Ejercicio de XSL con selección de discos precio 10 €</descripcion>
+</item>
+
+<item>
+<title>Unidad 7. Ejercicio Discos - Artista Ordenado</title>
+<link>https://hipema.github.io/unidad07/xml-xsl/discos_cd-order-artista.xml</link>
+<descripcion>Ejercicio de XSL con selección de discos ordenado por artista.</descripcion>
+</item>
+
+<item>
+<title>Unidad 7. Ejercicio Discos - Listado discos</title>
+<link>https://hipema.github.io/unidad07/xml-xsl/discos_cd.xml</link>
+<descripcion>Ejercicio de XSL con selección de discos ordenado por artista.</descripcion>
+</item>
+
+<item>
+<title>Unidad 7. Ejercicio Discos - Listado discos choose</title>
+<link>https://hipema.github.io/unidad07/xml-xsl/discos_choose.xml</link>
+<descripcion>Ejercicio de XSL con selección de discos con choose.</descripcion>
+</item>
+
 </channel>
 </rss>

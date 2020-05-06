@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:foo="http://www.foo.org/" xmlns:bar="http://www.bar.org/">
+ <employees>
+    <employee id="1">Johnny Dapp</employee>
+    <employee id="2">Al Pacino</employee>
+    <employee id="3">Robert De Niro</employee>
+    <employee id="4">Kevin Spacey</employee>
+    <employee id="5">Denzel Washington</employee>
+  </employees>
+  <companies>
+    <company id="6">Tata Consultancy Services</company>
+    <company id="7">Wipro</company>
+    <company id="8">Infosys</company>
+    <company id="9">Microsoft</company>
+    <company id="10">IBM</company>
+    <company id="11">Apple</company>
+    <company id="12">Oracle</company>
+ </companies>
+</root>
+
+<!-- Ejercicios relacionados
+3.    Selecciona todos los elementos 'employee' que son hijos directos del elemento 'employees'
+    /root/employees/employee
+4.    Selecciona todos elementos 'company' elements independientemente de su posición en el documento.
+    //company
+5.    Selecciona los atributos 'id' de los elementos 'company' independientemente de su posición en el documento.
+    //company/@id
+6.    Selecciona el valor del primer elemento ‘employee'
+    /root/employees/employee[1]
+7.    Selecciona el valor del último elemento ‘employee'
+    /root/employees/employee[last()]
+8.    Seleccionar el primer y segundo elemento "employee" utilizando posicion
+    /root/employees/employee[position()<3]
+9.    Selecciona todos los elementos "employee" que tienen el atributo id
+    /root/employees/employee[@id]
+10.  Selecciona el elemento "employee" cuyo atributo id sea 3
+    /root/employees/employee[@id=3]
+11. Todos los hijos del nodo "companies"
+    //companies/*
+12. Todos los elementos"employee" y "company"
+    //company | //employee
+13. Contar el número de elemtnos "company" existentes
+   count(//company)
+   -->
