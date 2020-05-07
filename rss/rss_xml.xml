@@ -6,110 +6,115 @@
 <item>
 <title>Unidad 7. Ejercicio 1.- Actividades Propuestas</title>
 <link>https://hipema.github.io/unidad07/actividades_propuestas/ejercicio01.xml</link>
-<descripcion>Ejercicio 1a de XML</descripcion>
+<description>Ejercicio 1a de XML</description>
 </item>
 
 <item>
 <title>Unidad 7. Ejercicio 1b.- Actividades Propuestas</title>
 <link>https://hipema.github.io/unidad07/actividades_propuestas/ejercicio01b.xml</link>
-<descripcion>Ejercicio 1b de XML</descripcion>
+<description>Ejercicio 1b de XML</description>
 </item>
 
 <item>
 <title>Unidad 7. Ejercicio 1c.- Actividades Propuestas</title>
 <link>https://hipema.github.io/unidad07/actividades_propuestas/ejercicio01c.xml</link>
-<descripcion>Ejercicio 1c de XML</descripcion>
+<description>Ejercicio 1c de XML</description>
 </item>
 
 <item>
 <title>Unidad 7. Ejercicio 1d.- Actividades Propuestas</title>
 <link>https://hipema.github.io/unidad07/actividades_propuestas/ejercicio01d.xml</link>
-<descripcion>Ejercicio 1d de XML</descripcion>
+<description>Ejercicio 1d de XML</description>
 </item>
 
 <item>
 <title>Unidad 7. Ejercicio 1e.- Actividades Propuestas</title>
 <link>https://hipema.github.io/unidad07/actividades_propuestas/ejercicio01e.xml</link>
-<descripcion>Ejercicio 1e de XML</descripcion>
+<description>Ejercicio 1e de XML</description>
 </item>
 
 <item>
 <title>Unidad 7. Ejercicio 1. XSD</title>
 <link>https://hipema.github.io/unidad07/xsd/ejercicio01.xml</link>
-<descripcion>Ejercicio 1 de XSD</descripcion>
+<description>Ejercicio 1 de XSD</description>
 </item>
 
 <item>
 <title>Unidad 7. Ejercicio 2. XSD</title>
 <link>https://hipema.github.io/unidad07/xsd/ejercicio02.xml</link>
-<descripcion>Ejercicio 2 de XML</descripcion>
+<description>Ejercicio 2 de XML</description>
 </item>
 
 <item>
 <title>Unidad 7. Ejercicio 3. XSD</title>
 <link>https://hipema.github.io/unidad07/xsd/ejercicio03.xml</link>
-<descripcion>Ejercicio 3 de XML</descripcion>
+<description>Ejercicio 3 de XML</description>
 </item>
 
 
 <item>
 <title>Unidad 7. Ejercicio 4. XSD</title>
 <link>https://hipema.github.io/unidad07/xsd/ejercicio04.xml</link>
-<descripcion>Ejercicio 4 de XML</descripcion>
+<description>Ejercicio 4 de XML</description>
 </item>
 
 <item>
 <title>Unidad 7. Ejercicio 5. XSD</title>
 <link>https://hipema.github.io/unidad07/xsd/ejercicio05.xml</link>
-<descripcion>Ejercicio 5 de XML</descripcion>
+<description>Ejercicio 5 de XML</description>
 </item>
 
 <item>
 <title>Unidad 7. Ejercicio 5b. XSD</title>
 <link>https://hipema.github.io/unidad07/xsd/ejercicio05b-ejemplo15.xml</link>
-<descripcion>Ejercicio 5b de XML</descripcion>
+<description>Ejercicio 5b de XML</description>
 </item>
 
 <item>
 <title>Unidad 6. Ejercicio 3. XHTML</title>
 <link>https://hipema.github.io/unidad06/ejercicio3.xhtml</link>
-<descripcion>Ejercicio 3 de XHTML</descripcion>
+<description>Ejercicio 3 de XHTML</description>
 </item>
 
 <item>
 <title>Unidad 7. Ejercicio Discos - Bob Dylan</title>
 <link>https://hipema.github.io/unidad07/xml-xsl/discos_bob_dylan.xml</link>
-<descripcion>Ejercicio de XSL con selección de discos Bob Dylan</descripcion>
+<description>Ejercicio de XSL con selección de discos Bob Dylan</description>
+<pubDate>Miércoles 6 de Mayo 2020</pubDate>
 </item>
 
 <item>
 <title>Unidad 7. Ejercicio Discos - Precio 10 €</title>
 <link>https://hipema.github.io/unidad07/xml-xsl/discos_bob_dylan.xml</link>
-<descripcion>Ejercicio de XSL con selección de discos precio 10 €</descripcion>
+<description>Ejercicio de XSL con selección de discos precio 10 €</description>
+<pubDate>Miércoles 6 de Mayo 2020</pubDate>
 </item>
 
 <item>
 <title>Unidad 7. Ejercicio Discos - Artista Ordenado</title>
 <link>https://hipema.github.io/unidad07/xml-xsl/discos_cd-order-artista.xml</link>
-<descripcion>Ejercicio de XSL con selección de discos ordenado por artista.</descripcion>
+<description>Ejercicio de XSL con selección de discos ordenado por artista.</description>
 </item>
 
 <item>
 <title>Unidad 7. Ejercicio Discos - Listado discos</title>
 <link>https://hipema.github.io/unidad07/xml-xsl/discos_cd.xml</link>
-<descripcion>Ejercicio de XSL con selección de discos ordenado por artista.</descripcion>
+<description>Ejercicio de XSL con selección de discos ordenado por artista.</description>
+<pubDate>Miércoles 6 de Mayo 2020</pubDate>
 </item>
 
 <item>
 <title>Unidad 7. Ejercicio Discos - Listado discos choose</title>
 <link>https://hipema.github.io/unidad07/xml-xsl/discos_choose.xml</link>
-<descripcion>Ejercicio de XSL con selección de discos con choose.</descripcion>
+<description>Ejercicio de XSL con selección de discos con choose.</description>
+<pubDate>Miércoles 6 de Mayo 2020</pubDate>
 </item>
 
 <item>
 <title>Unidad 6. Ejercicio 4. XHTML - Los Planetas</title>
 <link>https://hipema.github.io/unidad06/ejercicio4.xhtml</link>
-<descripcion>Ejercicio 4 de XHTML. Los Planetas</descripcion>
+<description>Ejercicio 4 de XHTML. Los Planetas</description>
+<pubDate>Miércoles 6 de Mayo 2020</pubDate>
 </item>
 
 </channel>
