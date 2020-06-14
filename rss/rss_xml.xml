@@ -4,6 +4,12 @@
 <title>RSS - Ejercicios XML - Manuel Hidalgo</title>
 
 <item>
+<title>Unidad 9. Actividad 2. Instalación de Odoo</title>
+<link>https://hipema.github.io/unidad09/LMunidad9ManuelHidalgoPerez.pdf</link>
+<description>En esta actividad realizamos el análisis, instalación de Odoo mediante Docker, configuración de la plataforma y puesta en marcha de un punto de venta para un Bar.</description>
+</item>
+
+<item>
 <title>Unidad 7. Ejercicio 1.- Actividades Propuestas</title>
 <link>https://hipema.github.io/unidad07/actividades_propuestas/ejercicio01.xml</link>
 <description>Ejercicio 1a de XML</description>
