@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-3186017-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-3186017-1');
+</script>
+	<meta charset="utf-8">
+	<meta name="description" content"Carta digital con codigo QR">
+    <meta name="keywords" content"Montilla, Córdoba, Carta Digital, Menu Digital">
+    <link rel="alternate" type="application/rss+xml" title="Manuel Hidalgo - HTML" href="https://hipema.github.io/rss/rss_html.xml" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="css/menudigital.css">
+    <script src="https://kit.fontawesome.com/1033c8428d.js" crossorigin="anonymous"></script>
+    <title>Menú Digital en tu Móvil</title>
+</head>
+<body>
+        <div class="container-fluid">
+            <div id="accordion">
+                <!-- Cabecera  -->
+                <div class="row"><img class="mx-auto d-block img-fluid" src="./img/espak-king-kebab.png" alt="Ejemplo"></div>
+                <p></p>
+                <!-- Keabab -->
+                <div class="card">
+                  <div class="card-header" id="kebab">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link font-weight-bold text-dark text-decoration-none" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Kebab
+                      </button>
+                    </h5>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse" aria-labelledby="kebab" data-parent="#accordion">
+                    <div class="card-body">
+                        <table class="table">
+                            <thead class="thead-dark">
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col"></th>
+                                <th scope="col">Precio</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th><td>Kebab de pollo</td><td>2,00€</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th><td>Kebab de ternera</td><td>2,00€</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th><td>Kebab Mixto</td><td>2,00€</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">4</th><td>Kebab de pollo, ternera o mixto con queso</td><td>2,50€</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">5</th><td>Kebab de pollo, ternera o mixto solo carne</td><td>3,00€</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">6</th><td>Kebab solo carne con queso</td><td>3,50€</td>
+                              </tr>
+                            </tbody>
+                        </table>
+                          
+                    </div>
+                  </div>
+                </div>
+                <!-- Durum -->
+                <div class="card">
+                  <div class="card-header" id="durum">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link font-weight-bold text-dark text-decoration-none" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Durum
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="durum" data-parent="#accordion">
+                    <div class="card-body">
+                        <table class="table">
+                            <thead class="thead-dark">
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col"></th>
+                                <th scope="col">Precio</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th><td>Durum de pollo</td><td>3,00€</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th><td>Durum de ternera</td><td>3,00€</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th><td>Durum Mixto</td><td>3,00€</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">4</th><td>Durum de pollo, ternera o mixto con queso</td><td>3,50€</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">5</th><td>Durum de pollo, ternera o mixto solo carne</td><td>4,00€</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">6</th><td>Durum solo carne con queso</td><td>4,50€</td>
+                              </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                  </div>
+                </div>
+                <!-- Pizza Turca -->
+                <div class="card">
+                  <div class="card-header" id="pizzaturca">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link font-weight-bold text-dark text-decoration-none" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Pizza Turca
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="pizzaturca" data-parent="#accordion">
+                    <div class="card-body">
+                        <table class="table">
+                            <thead class="thead-dark">
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col"></th>
+                                <th scope="col">Precio</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th><td>Pizza Turca de pollo</td><td>3,50 €</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th><td>Pizza Turca de ternera</td><td>3,50 €</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th><td>Pizza Turca Mixto</td><td>3,50 €</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">4</th><td>Pizza Turca de pollo, ternera o mixto con queso</td><td>4,00 €</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">5</th><td>Pizza Turca de pollo, ternera o mixto solo carne</td><td>4,50 €</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">6</th><td>Pizza Turca solo carne con queso</td><td>5,00 €</td>
+                              </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                  </div>
+                </div>
+                <!-- Plato Combinado -->
+                <div class="card">
+                    <div class="card-header" id="platoCombinado">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link font-weight-bold text-dark text-decoration-none" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          Platos Combinados
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="platoCombinado" data-parent="#accordion">
+                      <div class="card-body">
+                        <table class="table">
+                            <thead class="thead-dark">
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col"></th>
+                                <th scope="col">Precio</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th><td>Plato de pollo</td><td>4,50 €</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th><td>Plato de ternera</td><td>4,50 €</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th><td>Plato Mixto</td><td>4,50 €</td>
+                              </tr>
+                              <tr>
+                                <th scope="row"></th><td>Sólo Carne +1 €  -  Con Queso +0,50 €</td>
+                              </tr>
+                            </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <!-- Patatas Fritas -->
+              <div class="card">
+                <div class="card-header" id="patatasFritas">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link font-weight-bold text-dark text-decoration-none" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      Patatas Fritas
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="patatasFritas" data-parent="#accordion">
+                  <div class="card-body">
+                    <table class="table">
+                        <thead class="thead-dark">
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col"></th>
+                            <th scope="col">Precio</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th><td>Patatas Fritas Mediana</td><td>1,50 €</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th><td>Patatas Fritas Grande</td><td>2,00 €</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th><td>Patatas Fritas Mediana con carne y salsa</td><td>3,00 €</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">4</th><td>Patatas Fritas Grande con carne y salsa</td><td>4,00 €</td>
+                          </tr>
+                        </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            <!-- Patatas Asadas -->
+            <div class="card">
+                <div class="card-header" id="patatasAsada">
+                <h5 class="mb-0">
+                    <button class="btn btn-link font-weight-bold text-dark text-decoration-none" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    Patata Asada
+                    </button>
+                </h5>
+                </div>
+                <div id="collapseSix" class="collapse" aria-labelledby="patatasAsada" data-parent="#accordion">
+                <div class="card-body">
+                    <table class="table">
+                        <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col"></th>
+                            <th scope="col">Precio</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">1</th><td>Patata de pollo</td><td>4,00 €</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th><td>Patata de ternera</td><td>4,00 €</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th><td>Patata mixta</td><td>4,00 €</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th><td>Patata de atún</td><td>4,00 €</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th><td>Patata vegetal</td><td>3,50 €</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                </div>
+            </div>
+            <!-- Hamburguesas -->
+            <div class="card">
+                <div class="card-header" id="hamburguesa">
+                <h5 class="mb-0">
+                    <button class="btn btn-link font-weight-bold text-dark text-decoration-none" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                    Hamburguesas
+                    </button>
+                </h5>
+                </div>
+                <div id="collapseSeven" class="collapse" aria-labelledby="hamburguesa" data-parent="#accordion">
+                <div class="card-body">
+                    <table class="table">
+                        <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col"></th>
+                            <th scope="col">Precio</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">1</th><td>Normal</td><td>2,00 €</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"></th><td>(Tomate, cebolla, lechuga, ketchup y mahonesa.)</td><td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th><td>Con Queso</td><td>2,50 €</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"></th><td>(Queso, tomate natural, cebolla, lechuga, ketchup y mahonesa.)</td><td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th><td>Especial doble</td><td>4,00 €</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"></th><td>(Queso, tomate natural, cebolla, lechuga, ketchup y mahonesa.)</td><td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                </div>
+            </div>
+            <!-- Menús -->
+            <div class="card">
+              <div class="card-header" id="menus">
+              <h5 class="mb-0">
+                  <button class="btn btn-link font-weight-bold text-dark text-decoration-none" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                  Menús
+                  </button>
+              </h5>
+              </div>
+              <div id="collapse8" class="collapse" aria-labelledby="menus" data-parent="#accordion">
+              <div class="card-body">
+                  <table class="table">
+                      <thead class="thead-dark">
+                      <tr>
+                          <th scope="col">#</th>
+                          <th scope="col"></th>
+                          <th scope="col">Precio</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <th scope="row">1</th><td>Kebab de pollo, ternera o mixto + patatas + bebida</td><td>4,00 €</td>
+                      </tr>
+                      <tr>
+                          <th scope="row"></th><td>Solo carne +1€ - con queso +0,50 €</td><td></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th><td>Durum de pollo, ternera o mixto + patatas + bebida</td><td>5,00 €</td>
+                      </tr>
+                      <tr>
+                          <th scope="row"></th><td>Solo carne +1€ - con queso +0,50 €</td><td></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th><td>Pizza Turca de pollo, ternera o mixto + patatas + bebida</td><td>5,50 €</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"></th><td>Solo carne +1€ - con queso +0,50 €</td><td></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th><td>Hamburguesa + patatas + bebida</td><td>4,00 €</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"></th><td>Con queso +0,50 €</td><td></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th><td>Plato combinado de pollo, ternera o mixto + patatas + bebida</td><td>5,00 €</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"></th><td>Solo carne +1€ - con queso +0,50 €</td><td></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th><td>Pizza Italiana Mediana  + patatas + bebida</td><td>6,50 €</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">7</th><td>Pizza Italiana Grande  + patatas + bebida</td><td>8,00 €</td>
+                      </tr>
+                      </tbody>
+                  </table>
+              </div>
+              </div>
+            </div>
+            <!-- Ensaladas -->
+            <div class="card">
+              <div class="card-header" id="ensaladas">
+              <h5 class="mb-0">
+                  <button class="btn btn-link font-weight-bold text-dark text-decoration-none" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                  Ensaladas
+                  </button>
+              </h5>
+              </div>
+              <div id="collapse9" class="collapse" aria-labelledby="ensaladas" data-parent="#accordion">
+              <div class="card-body">
+                  <table class="table">
+                      <thead class="thead-dark">
+                      <tr>
+                          <th scope="col">#</th>
+                          <th scope="col"></th>
+                          <th scope="col">Precio</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <th scope="row">1</th><td>Mixto</td><td>2,50 €</td>
+                      </tr>
+                      <tr>
+                          <th scope="row"></th><td>Lechuga, pimiento, tomate y zanahoria.</td><td></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th><td>Italiana</td><td>4,50 €</td>
+                      </tr>
+                      <tr>
+                          <th scope="row"></th><td>Lechuga, tomate, olivas, pimiento, queso y atún.</td><td></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th><td>Griega</td><td>4,00 €</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"></th><td>Lechuga, queso fresco, tomate y pimiento rojo.</td><td></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th><td>Mexicana</td><td>4,50 €</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"></th><td>Lechuga, atún, cebolla, zanahoria, tomate, maiz y pimiento.</td><td></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th><td>Pollo</td><td>4,50 €</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"></th><td>Lechuga, tomate, olivas, zanahoria, pimiento rojo y pollo.</td><td></td>
+                      </tr>
+                      </tbody>
+                  </table>
+              </div>
+              </div>
+            </div>
+            <!-- Pizza Italiana -->
+            <div class="card">
+              <div class="card-header" id="pizzaItaliana">
+              <h5 class="mb-0">
+                  <button class="btn btn-link font-weight-bold text-dark text-decoration-none" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                  Pizza Italiana
+                  </button>
+              </h5>
+              </div>
+              <div id="collapse10" class="collapse" aria-labelledby="pizzaItaliana" data-parent="#accordion">
+              <div class="card-body">
+                  <table class="table">
+                      <thead class="thead-dark">
+                      <tr>
+                          <th scope="col">#</th>
+                          <th scope="col"></th>
+                          <th scope="col">Mediana</th>
+                          <th scope="col">Grande</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <th scope="row">1</th><td>Margarita, mozzarella, tomate</td><td>4,50 €</td><td>6,00 €</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th><td>Vegetal</td><td>4,50 €</td><td>6,00 €</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th><td>Champiñón, pimiento, atún y cebolla</td><td>4,50 €</td><td>6,00 €</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th><td>4 ingredientes a elegir de la carta</td><td>4,50 €</td><td>6,00 €</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th><td>Cebolla, atún y aceitunas</td><td>4,50 €</td><td>6,00 €</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th><td>Champiñones y cebolla</td><td>4,50 €</td><td>6,00 €</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">7</th><td>4 Quesos</td><td>4,50 €</td><td>6,00 €</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">8</th><td>Pollo y ternera, carne de Kebab</td><td>4,50 €</td><td>6,00 €</td>
+                      </tr>
+                      </tbody>
+                  </table>
+              </div>
+              </div>
+            </div> 
+            <!-- Refrescos -->
+            <div class="card">
+              <div class="card-header" id="refrescos">
+              <h5 class="mb-0">
+                  <button class="btn btn-link font-weight-bold text-dark text-decoration-none" data-toggle="collapse" data-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                  Refrescos
+                  </button>
+              </h5>
+              </div>
+              <div id="collapse11" class="collapse" aria-labelledby="refrescos" data-parent="#accordion">
+              <div class="card-body">
+                  <table class="table">
+                      <thead class="thead-dark">
+                      <tr>
+                          <th scope="col">#</th>
+                          <th scope="col"></th>
+                          <th scope="col">Precio</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <th scope="row">1</th><td>Coca-Cola</td><td>1,0 €</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th><td>Fanta</td><td>1,0 €</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th><td>Nestea</td><td>1,0 €</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th><td>Pepsi</td><td>1,0 €</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th><td>Agua</td><td>1,0 €</td>
+                      </tr>
+                      </tbody>
+                  </table>
+              </div>
+              </div>
+            </div>  
+
+
+            </div>
+            <p></p>
+            
+        <!-- Footer -->
+        
+    </div>
+    <!-- Footer -->
+    <footer class="page-footer font-small bg-dark text-light py-1">
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+    
+        <!-- Footer links -->
+        <div class="row text-center text-md-left mt-3 pb-3">
+    
+            <!-- Grid column -->
+            <div class="col-12 mx-auto mt-4 text-center">
+            <h6 class="text-uppercase mb-4 font-weight-bold">ESPAK KING KEBAB</h6>
+            <p>Plaza de la Rosa. Montilla (Córdoba)</p>
+            </div>
+            <!-- Grid column -->
+    
+            <hr class="w-100 clearfix d-md-none">
+    
+            <!-- Grid column -->
+            <div class="col-12 mx-auto mt-4 text-center">
+            <h6 class="text-uppercase mb-4 font-weight-bold">REDES SOCIALES</h6>
+            <p>
+                <a href="https://www.facebook.com/pages/category/Turkish-Restaurant/ESPAK-KING-KEBAB-1836712163209670/" target="_blank">Facebook</a>
+            </p>
+            </div>
+            <!-- Grid column -->
+    
+            <hr class="w-100 clearfix d-md-none">
+    
+            <!-- Grid column -->
+            <div class="col-12 mx-auto mt-4 text-center">
+            <h6 class="text-uppercase mb-4 font-weight-bold">CONTACTO</h6>
+            <p>
+                <b>Teléfono:</b> <a href="tel:+34634255874">634 255 874</a><br>
+                <a href="https://api.whatsapp.com/send?phone=34634255874" target="_blank"><i class="fab fa-whatsapp"></i> Whatsapp </a>
+                
+            </p>
+            <p>
+               Disponible para llevar. No se sirve a domicilio
+            </p>
+            </div>
+        </div>
+        <!-- Footer links -->
+    
+        <hr>
+    
+        <!-- Grid row -->
+        <div class="row d-flex align-items-center">
+    
+            <!-- Grid column -->
+            <div class="col-12">
+    
+            <!--Copyright-->
+            <p class="text-center">© 2020 Copyright:
+                <a href="https://subeunescalon.com/" target="_blank">
+                <strong>Sube un Escalón</strong>
+                </a>
+            </p>
+    
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-12">
+    
+            <!-- Social buttons -->
+            <div class="text-center">
+                <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-sm rgba-white-slight mx-1 text-light" href="https://www.facebook.com/subeunescalon" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-sm rgba-white-slight mx-1 text-light" href="https://github.com/hipema" target="_blank">
+                        <i class="fab fa-github"></i>
+                        </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-sm rgba-white-slight mx-1 text-light" href="https://www.instagram.com/subeunescalon/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-sm rgba-white-slight mx-1 text-light" href="https://www.linkedin.com/in/manuelhidalgoperez" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                </ul>
+            </div>
+    
+            </div>
+            <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+        </div>
+        <!-- Footer Links -->
+    </footer>
+    <!-- Footer -->
+    
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.js"></script>
+</body>
+</html>

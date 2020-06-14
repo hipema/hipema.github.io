@@ -4,6 +4,12 @@
 <title>RSS - Ejercicios XML - Manuel Hidalgo</title>
 
 <item>
+<title>Ejercicio Adicional subida de Nota</title>
+<link>https://hipema.github.io/unidad09/calculadora_divisas.zip</link>
+<description>Actividad adicional con la inclusión de entorno gráfico en python de una calculadora de divisas.</description>
+</item>
+
+<item>
 <title>Unidad 9. Actividad 2. Instalación de Odoo</title>
 <link>https://hipema.github.io/unidad09/LMunidad9ManuelHidalgoPerez.pdf</link>
 <description>En esta actividad realizamos el análisis, instalación de Odoo mediante Docker, configuración de la plataforma y puesta en marcha de un punto de venta para un Bar.</description>
