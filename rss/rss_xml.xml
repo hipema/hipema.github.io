@@ -10,6 +10,12 @@
 </item>
 
 <item>
+<title>Unidad 9. Actividad 1. Información ERP</title>
+<link>https://hipema.github.io/erp</link>
+<description>Página web desarrollada con información sobre los sistemas ERP.</description>
+</item>
+
+<item>
 <title>Unidad 9. Actividad 2. Instalación de Odoo</title>
 <link>https://hipema.github.io/unidad09/LMunidad9ManuelHidalgoPerez.pdf</link>
 <description>En esta actividad realizamos el análisis, instalación de Odoo mediante Docker, configuración de la plataforma y puesta en marcha de un punto de venta para un Bar.</description>
